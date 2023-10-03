@@ -34,6 +34,6 @@ def menu():
             user_choices.get(user_input)()
         else:
             print('\nPlease choose a valid command.\n')
-        user_input = input(USER_CHOICE  )
+        user_input = input(USER_CHOICE)
 
 menu()
